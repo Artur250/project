@@ -7,6 +7,7 @@ import Search from './Pages/Search/Search';
 import Weekly from './Pages/Weekly/Weekly';
 import World from './Pages/World/World'
 import './App.css';
+import Data from './components/Data/Data';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route  path='/weekly' element={<Weekly />}/>
       <Route  path='/world' element={<World />}/>
     </Routes>
+    <Data />
     </div>
   );
 }
