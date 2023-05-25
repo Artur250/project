@@ -1,10 +1,11 @@
 import React from 'react';
 import {Route, Routes, Router} from 'react-router-dom'
 import Header from './components/Header/Header';
-import Home from './Pages/Home/Home';
-import Service from './Pages/Service/Service';
-import Contact from './Pages/Contact/Contact';
-import AboutUs from './Pages/AboutUs/AboutUs'
+import Logo from './Pages/Logo/Logo';
+import Menu from './Pages/Menu/Menu';
+import Search from './Pages/Search/Search';
+import Weekly from './Pages/Weekly/Weekly';
+import World from './Pages/World/World'
 import './App.css';
 
 function App() {
@@ -12,10 +13,11 @@ function App() {
     <div className="App">
        <Header />
       <Routes>
-      <Route  exact path='/' element={<Home/>}/>
-      <Route  path='/service' element={<Service />}/>
-      <Route  path='/contact' element={<Contact />}/>
-      <Route  path='/about' element={<AboutUs />}/>
+      <Route  exact path='/' element={<Logo/>}/>
+      <Route  path='/service' element={<Menu />}/>
+      <Route  path='/contact' element={<Search />}/>
+      <Route  path='/about' element={<Weekly />}/>
+      <Route  path='/about' element={<World />}/>
     </Routes>
     </div>
   );
