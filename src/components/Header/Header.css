@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120%;
+    height: 100px;
+
+  
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 100px;
+    
+}
+
+.logo{
+    
+}
+
