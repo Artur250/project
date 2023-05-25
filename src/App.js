@@ -14,10 +14,10 @@ function App() {
        <Header />
       <Routes>
       <Route  exact path='/' element={<Logo/>}/>
-      <Route  path='/service' element={<Menu />}/>
-      <Route  path='/contact' element={<Search />}/>
-      <Route  path='/about' element={<Weekly />}/>
-      <Route  path='/about' element={<World />}/>
+      <Route  path='/menu' element={<Menu />}/>
+      <Route  path='/search' element={<Search />}/>
+      <Route  path='/weekly' element={<Weekly />}/>
+      <Route  path='/world' element={<World />}/>
     </Routes>
     </div>
   );
