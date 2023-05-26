@@ -1,0 +1,83 @@
+.img4{
+     width: 500px;
+
+     
+}
+.p1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+.p2{
+    display: flex;
+    
+}
+.p3{
+    display: flex;
+}
+
+.Briefing{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+
+.img5{
+    width: 80%;
+}
+
+.p4{
+    color: red;
+}
+.Britain{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+}
+.brit{
+   position: absolute;
+   bottom: -98px;
+   right: 430px;
+}
+
+.p7{
+    color: red;
+}
+.economics{
+    position: absolute;
+    right: 480px;
+}
+.btn1{
+    align-items: center;
+    border: var(--ds-border-rule);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: var(--ds-type-system-sans);
+    font-size: var(--ds-type-scale-0);
+    font-weight: 500;
+    height: 2rem;
+    line-height: var(--ds-type-leading-border-link);
+    padding: 0.25rem calc(var(--ds-grid-gap) - 0.25rem) 0.25rem var(--ds-grid-gap);
+    text-decoration: none;
+
+}
+
+.brief{
+    width: 230px;
+    height: 690px;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    right: 10%;
+    bottom: -345px;
+}
+
+.shadow1{
+    
+}
