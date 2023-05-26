@@ -94,9 +94,7 @@ const Briefing = () => {
                  </div>
                  </div>
 
-                 <div className='shadow1'></div>
-                 <div className='shadow2'></div>
-                 <div className='shadow3'></div>
+                
             </div>
         );
     
