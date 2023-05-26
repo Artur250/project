@@ -8,6 +8,7 @@ import Weekly from './Pages/Weekly/Weekly';
 import World from './Pages/World/World'
 import './App.css';
 import Data from './components/Data/Data';
+import Briefing from './components/Briefing/Briefing';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route  path='/world' element={<World />}/>
     </Routes>
     <Data />
+    <Briefing />
     </div>
   );
 }
